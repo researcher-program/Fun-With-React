@@ -1,0 +1,368 @@
+            ##git & github:
+
+
+
+        ##React.JS:
+
+        #Link:https://react.dev/
+        MyLocalHostComputer: #link:http://localhost:3000/
+npx create-react-app <ProjectName:>,Like,npx create-react-app "myreactapp" ==>npx create-react-app myreactapp
+,but if  I capital form of this,then What:
+
+npx create-react-app myReactApp
+Cannot create a project named "myReactApp" because of npm naming restrictions:
+  * name can no longer contain capital letters
+Please choose a different project name.
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> npx create-react-app my-react-app-1 
+
+Creating a new React app in H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1301 packages in 1m
+
+267 packages are looking for funding     
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 17 packages, and changed 1 package in 10s
+
+267 packages are looking for funding     
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1318 packages in 3s
+
+267 packages are looking for funding     
+  run `npm fund` for details
+
+9 vulnerabilities (3 moderate, 6 high)   
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created my-react-app-1 at H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.       
+ production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-react-app-1
+  npm start
+
+Happy hacking!
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-react-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1> npm run start
+
+> my-react-app-1@0.1.0 start
+> react-scripts start
+
+(node:14380) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:14380) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view my-react-app-1 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.56.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-react-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1> npm run build
+
+> my-react-app-1@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  61.01 kB  build\static\js\main.3f66c01b.js
+  1.76 kB   build\static\js\453.b466db51.chunk.js
+  513 B     build\static\css\main.f855e6bc.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1>
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-react-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-react-app-1> npm run start
+
+> my-react-app-1@0.1.0 start
+> react-scripts start
+
+(node:15336) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:15336) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view my-react-app-1 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.56.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+
+
+
+            ##ViteReact.JS:
+        #Link:https://vite.dev/guide/
+       MyLocalHostComputer: #link:http://localhost:5173/
+PS H:\AllProgramsHere\ReactjsModels_Projects> npm create vite@latest              
+
+> npx
+> create-vite
+
+│
+◇  Project name:
+│  my-vitereact-app-1
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:    
+│  No
+│
+◇  Install with npm and start now?       
+│  Yes
+│
+◇  Scaffolding project in H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1...
+│
+◇  Installing dependencies with npm...   
+
+added 157 packages, and audited 158 packages in 13s
+
+33 packages are looking for funding      
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> my-vitereact-app-1@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 378 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+h
+
+  Shortcuts
+  press r + enter to restart the server
+  press u + enter to show server url
+  press o + enter to open in browser
+  press c + enter to clear console
+  press q + enter to quit
+
+
+  PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-vitereact-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm run start
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\AH\AppData\Local\npm-cache\_logs\2026-01-26T04_09_15_802Z-debug-0.log
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm run dev  
+
+> my-vitereact-app-1@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 266 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+q/quit
+
+
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm i/install
+
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-vitereact-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm run build
+
+> my-vitereact-app-1@0.0.0 build
+> vite build
+
+vite v7.3.1 building client environment for production...
+
+/src/style.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+✓ 27 modules transformed.
+dist/index.html                  0.52 kB │ gzip:  0.34 kB
+dist/assets/index-CSQVuQ4o.js  193.17 kB │ gzip: 60.59 kB
+✓ built in 1.25s
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> 
+
+
+   8 |   // const [count, setCount] = useState(0)
+   9 |
+  10 |   return (
+  Plugin: vite:react-babel
+  File: H:/AllProgramsHere/ReactjsModels_Projects/my-vitereact-app-1/src/App.jsx:7:0
+  5  |  // import './App.css'
+  6  |  import Cha
+  7  |  function App() {
+     |  ^
+  8  |    // const [count, setCount] = useState(0)
+  9  |
+      at constructor (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.unexpected (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:6619:16)
+      at JSXParserMixin.expectContextual (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:6878:12)
+      at JSXParserMixin.parseImportSpecifiersAndAfter (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:14233:10)   
+      at JSXParserMixin.parseImport (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:14225:17)
+      at JSXParserMixin.parseStatementContent (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:12866:27)
+      at JSXParserMixin.parseStatementLike (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:12757:17)
+      at JSXParserMixin.parseModuleItem (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:12734:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:13306:36)     
+      at JSXParserMixin.parseBlockBody (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:13299:10)
+      at JSXParserMixin.parseProgram (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:12612:10)
+      at JSXParserMixin.parseTopLevel (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:12602:25)
+      at JSXParserMixin.parse (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:14478:25)
+      at parse (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\parser\lib\index.js:14512:38)
+      at parser (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:261:32)
+      at H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:223:11)
+      at H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:189:28
+      at H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:113:33
+      at step (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:287:14)
+      at H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1\node_modules\gensync\index.js:223:11)
+5:38:07 PM [vite] (client) hmr update /src/App.jsx
+q
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1>
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> cd..
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd..
+
+
+                ## TailwindCss in ViteReact.JS :
+        #Link:https://tailwindcss.com/docs/installation/using-vite
+       MyLocalHostComputer: #link:http://localhost:5173/
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-vitereact-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm install tailwindcss @tailwindcss/vite    
+
+added 13 packages, and audited 171 packages in 8s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm run dev
+
+> my-vitereact-app-1@0.0.0 dev
+> vite
+
+10:27:44 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.3.1  ready in 553 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+10:28:58 AM [vite] (client) page reload index.html     
+10:29:10 AM [vite] (client) page reload index.html (x2)
+10:30:39 AM [vite] (client) page reload index.html (x3)
+10:31:36 AM [vite] (client) page reload index.html (x4)
+10:31:38 AM [vite] (client) page reload index.html (x5)
+10:31:38 AM [vite] (client) page reload index.html (x6)
+10:32:17 AM [vite] (client) page reload index.html (x7)
+10:32:20 AM [vite] (client) page reload index.html (x8)
+10:32:20 AM [vite] (client) page reload index.html (x9)
+10:32:40 AM [vite] (client) page reload index.html (x10)
+10:32:41 AM [vite] (client) page reload index.html (x11)
+10:32:43 AM [vite] (client) page reload index.html (x12)
+10:32:48 AM [vite] (client) page reload index.html (x13)
+10:32:59 AM [vite] (client) page reload index.html (x14)
+10:33:01 AM [vite] (client) page reload index.html (x15)
+10:33:03 AM [vite] (client) page reload index.html (x16)
+10:33:04 AM [vite] (client) page reload index.html (x17)
+10:33:08 AM [vite] (client) page reload index.html (x18)
+10:33:13 AM [vite] (client) page reload index.html (x19)
+10:33:14 AM [vite] (client) page reload index.html (x20)
+10:33:16 AM [vite] (client) page reload index.html (x21)
+10:33:18 AM [vite] (client) page reload index.html (x22)
+10:33:21 AM [vite] (client) page reload index.html (x23)
+
+PS H:\AllProgramsHere\ReactjsModels_Projects> cd my-vitereact-app-1
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> npm run build
+
+> my-vitereact-app-1@0.0.0 build
+> vite build
+
+vite v7.3.1 building client environment for production...
+
+/src/style.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+✓ 27 modules transformed.
+dist/index.html                  0.52 kB │ gzip:  0.34 kB
+dist/assets/index-CSQVuQ4o.js  193.17 kB │ gzip: 60.59 kB
+✓ built in 1.25s
+PS H:\AllProgramsHere\ReactjsModels_Projects\my-vitereact-app-1> 
+

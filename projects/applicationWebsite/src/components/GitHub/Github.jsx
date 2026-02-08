@@ -1,0 +1,67 @@
+
+
+// import React, { useEffect, useState } from 'react'
+
+import { useLoaderData } from 'react-router-dom'
+
+function Github() {
+    const data = useLoaderData()
+    /*
+    // const [data, setData] = useState([])
+    // useEffect(() => {
+    //  fetch('https://api.github.com/users/hiteshchoudhary')
+    //  .then(response => response.json())
+    //  .then(data => {
+    //     console.log(data);
+    //     setData(data)
+    //  })
+    // }, [])
+    */
+  return (
+    <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl'> Github followers: {data.followers}
+    <img 
+    src={data.avatar_url} alt="Git picture" 
+    width={300} 
+    className="mx-auto mt-4"
+    />
+    </div>
+  )
+  
+/*
+ if (!data) return <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl'>
+  Github followers: {data?.followers}
+<img src={data?.avatar_url}  alt="Git picture" width={300} />
+</div>
+ */
+}
+
+export default Github
+
+/*
+export const githubInfoLoader = async  () => {
+    // const response = await fetch('https://api.github.com/users/hiteshchoudhary') 
+    const response = await fetch('https://api.github.com/users/researcher-program')
+    return response.json()
+}
+*/
+// export const githubInfoLoader =  async () => Promise<any> {
+  // const : Response  = await fetch(
+
+export const githubInfoLoader =  async () => {
+  const  response  = await fetch(
+    'https://api.github.com/users/researcher-program'
+  )
+
+  if (!response.ok) 
+    {
+    throw new Response("Failed to fetch GitHub data", {
+      status: response.status,
+    })
+  }
+
+  if (!response.ok) {
+    throw new Error('GitHub API Error')
+  }
+
+  return response.json()
+}
