@@ -1,0 +1,155 @@
+PS H:\All programs here\Reactjs\my-vite-alpine-app>npx npx create-react-app my-app 1basicreact
+(node:16876) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! cb.apply is not a function
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\AH\AppData\Local\npm-cache\_logs\2025-12-15T00_32_50_518Z-debug.log
+Install for [ 'create-react-app@latest' ] failed with code 1
+PS H:\All programs here\Reactjs\my-vite-alpine-app> npx npx create-react-app my-app 
+npm ERR! cb.apply is not a function
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\AH\AppData\Local\npm-cache\_logs\2025-12-15T00_34_24_490Z-debug.log
+Install for [ 'create-react-app@latest' ] failed with code 1
+PS H:\All programs here\Reactjs\my-vite-alpine-app> create-react-app@latest 
+create-react-app@latest: The term 'create-react-app@latest' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS H:\All programs here\Reactjs\my-vite-alpine-app> npx create-react-app@latest      
+coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+npm warn deprecated uid-number@0.0.6: This package is no longer supported.  
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated fstream@1.0.12: This package is no longer supported.    
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+create-react-app is deprecated.
+
+You can find a list of up-to-date React frameworks on react.dev
+For more info see:https://react.dev/link/cra
+
+This error message will only be shown once per install.
+Please specify the project directory:
+  create-react-app <project-directory>
+
+For example:
+  create-react-app my-react-app
+
+Run create-react-app --help to see all options.
+PS H:\All programs here\Reactjs\my-vite-alpine-app>npx create-react-app --help
+Need to install the following packages:
+create-react-app@5.1.0
+Ok to proceed? (y) y
+
+Usage: create-react-app <project-directory> [options]
+
+Options:
+  -V, --version                            output the version number        
+  --verbose                                print additional logs
+  --info                                   print environment debug info     
+  --scripts-version <alternative-package>  use a non-standard version of react-scripts
+  --template <path-to-template>            specify a template for the created project
+  --use-pnp
+  -h, --help                               output usage information
+    Only <project-directory> is required.
+
+    A custom --scripts-version can be one of:
+      - a specific npm version: 0.8.2
+      - a specific npm tag: @next
+      - a custom fork published on npm: my-react-scripts
+      - a local path relative to the current working directory: file:../my-react-scripts
+      - a .tgz archive: https://mysite.com/my-react-scripts-0.8.2.tgz       
+      - a .tar.gz archive: https://mysite.com/my      - a .tar.gz archive: https://mysite.com/my-react-scripts-0.8.2.tar.gz
+    It is not needed unless you specifically want to use a fork.
+
+    A custom --template can be one of:
+      - a custom template published on npm: cra-template-typescript
+      - a local path relative to the current working directory: file:../my-custom-template      
+      - a .tgz archive: https://mysite.com/my-custom-template-0.8.2.tgz
+      - a .tar.gz archive: https://mysite.com/my-custom-template-0.8.2.tar.gz
+
+    If you have any problems, do not hesitate to file an issue:
+      https://github.com/facebook/create-react-app/issues/new
+
+PS H:\All programs here\Reactjs\my-vite-alpine-app> npx create-react-app my-react-app
+
+Creating a new React app in H:\All programs here\Reactjs\my-vite-alpine-app\my-react-app.       
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1311 packages in 2m
+
+266 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...   
+
+added 17 packages, and changed 1 package in 9s  
+
+266 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1328 packages in 5s
+
+266 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (3 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created my-react-app at H:\All programs here\Reactjs\my-vite-alpine-app\my-react-app   
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for productttttion.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-react-app
+  npm start
+
+Happy hacking!
+PS H:\All programs here\Reactjs\my-vite-alpine-app> 
+    cd my-react-app        
+PS H:\All programs here\Reactjs\my-vite-alpine-app\my-react-app> npm start  
+
+> my-react-app@0.1.0 start
+> react-scripts start
+
+(node:1060) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1060) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view my-react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.56.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully

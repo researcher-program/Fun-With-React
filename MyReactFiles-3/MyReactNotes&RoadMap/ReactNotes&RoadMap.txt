@@ -1,0 +1,40 @@
+ // React.Js Notes & Road Map :
+
+Q-1:Why to learn React?
+Ans:[Hype,jobs,trend,build UI]-->X,[Makes easy to manage & build complex Frontend]-->R8
+Q-2:When Should I learn React?
+Ans:After Mastering Js,[Most of the projects don't need to React in initial phases]
+Q-3:Why react was create?
+Ans:Ghost/Phantom messages Problem [No consistancy in UI]
+[State -->Js   ;  & UI -->DOM] [JS !={sync} DOM]
+
+Q-4:Whose adapted first ?
+ans:Khan Academy & Unsplash
+Q-5: When don't learn React if...?
+ans: you don't know how to work JS or DOM works
+Q-6: React's learning process?
+ans: 2 types:
+[1.Go in depth : Babel,fibre,Virtual DOM ,diff Algo,hydrations,tree shaking]
+[2.By making Projectwise(one topic at a time):Todo,calculator,Github API]
+Q-7:React is "framework or Library?=>Library
+
+    [React -->{React-DOM+Script},{React-Native}]
+        // Topics Of React :
+1.Core of React (State or UI manipulation ,JSX);2.Component Reusability;3.Reusing of component(props --> Properties);4.How to propagate change(hooks)
+
+        //Extra Topics of React :
+i. Additional Addon to React (React-Router-DOM):
+  1.Router (react don't have router)
+  2.state management (react don't have state management):
+    -->Redux,Redux toolkit,zustand,context API
+  3.Class based component:
+    --> lagacy code
+  4.BAAS(Backend AS AS Service) Apps: Appwrite,firabase,superbase,freeApi.app(Open Source)
+    -->Social media clone,e-commerce app,...
+
+ii.After React :
+ 1.React is not a complete solution in most cases:
+    -->No SEO,Browser Render of JS( Slowdown ),No routing
+ 2.framework:Next.js,Remix,Gatsby
+
+or, iii.Switch --> Backend.
