@@ -1,0 +1,35 @@
+
+React-Redux:
+
+
+PS H:\AllProgramsHere\WebDeveloper\WebDeveloper1\ReactjsModels_Projects\projects\reduxToolkitTodo> npm install react-redux & @reduxjs/toolkit
+ParserError: 
+Line |
+   1 |  npm install react-redux & @reduxjs/toolkit
+     |                                     ~
+     | You must provide a value expression following the 
+     | '/' operator.
+PS H:\AllProgramsHere\WebDeveloper\WebDeveloper1\ReactjsModels_Projects\projects\reduxToolkitTodo> npm install react-redux && @reduxjs/toolkit
+ParserError: 
+Line |
+   1 |  npm install react-redux && @reduxjs/toolkit      
+     |                                      ~
+     | You must provide a value expression following the 
+     | '/' operator.
+PS H:\AllProgramsHere\WebDeveloper\WebDeveloper1\ReactjsModels_Projects\projects\reduxToolkitTodo> npm install @reduxjs/toolkit
+
+added 7 packages, and audited 178 packages in 7s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS H:\AllProgramsHere\WebDeveloper\WebDeveloper1\ReactjsModels_Projects\projects\reduxToolkitTodo> npm install react-redux
+
+added 3 packages, and audited 181 packages in 2s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS H:\AllProgramsHere\WebDeveloper\WebDeveloper1\ReactjsModels_Projects\projects\reduxToolkitTodo>
