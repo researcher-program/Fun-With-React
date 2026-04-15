@@ -1,0 +1,106 @@
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp> npm create vite@latest       
+
+> npx
+> create-vite
+
+│
+◇  Project name:
+│  myviteprojectapp
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:      
+│  No
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\myviteprojectapp...
+│
+◇  Installing dependencies with npm...
+
+added 157 packages, and audited 158 packages in 32s
+
+33 packages are looking for funding        
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> myviteprojectapp@0.0.0 dev
+> vite
+
+'ViteFiles\ViteApp\myviteprojectapp\node_modules\.bin\' is not recognized as an internal or external command,
+operable program or batch file.
+node:internal/modules/cjs/loader:1368
+  throw err;
+  ^
+
+Error: Cannot find module 'H:\AllProgramsHere\Reactjs\vite\bin\vite.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.18.0
+npm error code 1
+npm error path H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp  
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c create-vite   
+npm error A complete log of this run can be found in: C:\Users\AH\AppData\Local\npm-cache\_logs\2026-01-24T15_40_31_309Z-debug-0.log      
+PS H:\AllProgrcd myviteprojectappeact&ViteFiles\ViteApp>   cd myvite 
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\myviteprojectapp> ls
+
+    Directory: H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\
+myviteprojectapp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           1/24/2026  9:42 PM     node_modules
+d----           1/24/2026  9:42 PM     public
+d----           1/24/2026  9:42 PM     src
+-a---          12/15/2025  1:45 AM            253 .gitignore
+-a---          12/15/2025  1:45 AM            758 eslint.config.js   
+-a---           1/24/2026  9:42 PM            365 index.html
+-a---           1/24/2026  9:42 PM          99919 package-lock.json  
+-a---           1/24/2026  9:42 PM            612 package.json       
+-a---          12/15/2025  1:45 AM           1157 README.md
+-a---          12/15/2025  1:45 AM            161 vite.config.js     
+
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\myviteprojectapp> dir
+
+    Directory: H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\ 
+myviteprojectapp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           1/24/2026  9:42 PM     node_modules       
+d----           1/24/2026  9:42 PM                node_modules
+d----           1/24/2026  9:42 PM                public
+d----           1/24/2026  9:42 PM                src
+-a---          12/15/2025  1:45 AM            253 .gitignore
+-a---          12/15/2025  1:45 AM            758 eslint.config.js
+-a---           1/24/2026  9:42 PM            365 index.html
+-a---           1/24/2026  9:42 PM          99919 package-lock.json
+-a---           1/24/2026  9:42 PM            612 package.json
+-a---          12/15/2025  1:45 AM           1157 README.md
+-a---          12/15/2025  1:45 AM            161 vite.config.js
+
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\Vinpm install //Only install for node_modules
+
+up to date, audited 158 packages in 974ms
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ViteApp\myviteprojectapp>npm run dev 

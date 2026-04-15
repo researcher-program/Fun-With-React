@@ -1,0 +1,156 @@
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles> cd ReactApp     
+PS H:\AllProgramsHere\Reactjs\Myssssss\ss\MyReact&ViteFiles> cd ReactApp      s\MyReact&ViteFiles> cd ReactApp s\MyReact&ViteFiles> cd ReactApp     s\MyReact&ViteFiles> cd ReactApps\MyReact&ViteFiles> cd ReactAs\MyReact&Vites\MyReas\MyReas\MyReact&Vites\MyReas\MyReact&Vites\MyReas\MyReact&Vites\MyReact&ViteFiles> cd Res\MyReact&ViteFiles> cd ReactApp        
+PS H:\Anpx create-react-app             
+Please specify the project directory:
+
+For example:
+  create-react-app my-react-app
+
+Run create-react-app --help to see all options.
+PS H:\AllProgramsHnpx create-react-app --help        App>
+Usage: create-react-app <project-directory> [options]
+
+Options:
+  -V, --version                            output the version number
+  --verbose                                print additional logs
+  --info                                   print environment debug info
+  --scripts-version <alternative-package>  use a non-standard version of react-scripts
+  --template <path-to-template>            specify a template for the created project
+  --use-pnp
+  -h, --help                               output usage information
+    Only <project-directory> is required.
+
+    A custom --scripts-version can be one of:
+      - a specific npm version: 0.8.2
+      - a specific npm tag: @next
+      - a custom fork published on npm: my-react-scripts
+      - a local path relative to the current working directory: file:../my-react-scripts
+      - a .tgz archive: https://mysite.com/my-react-scripts-0.8.2.tgz
+      - a .tar.gz archive: https://mysite.com/my-react-scripts-0.8.2.tar.gz
+    It is not needed unless you specifically want to use a fork.
+
+    A custom --template can be one of:
+      - a custom template published on npm: cra-template-typescript
+      - a local path relative to the current working directory: file:../my-custom-template
+      - a .tgz archive: https://mysite.com/my-custom-template-0.8.2.tgz
+      - a .tar.gz archive: https://mysite.com/my-custom-template-0.8.2.tar.gz
+
+    If you have any problems, do not hesitate to file an issue:
+      https://github.com/facebook/create-react-app/issues/new
+
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp>
+
+
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> npx create-react-app myReactApp
+Cannot create a project named "myReactApp" because of npm naming restrictions:
+
+  * name can no longer contain capital letters
+
+Please choose a different project name.
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> npx create-react-app myreactapp
+
+Creating a new React app in H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\myreactapp.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1301 packages in 4m
+
+267 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 17 packages, and changed 1 package in 11s
+
+267 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1318 packages in 9s
+
+267 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (3 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created myreactapp at H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\myreactapp
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd myreactapp
+  npm start
+
+Happy hacking!
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> 
+
+Happy hacking!
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> npm sta
+Unknown command: "sta"
+
+
+Did you mean this?
+  npm star # Mark your favorite packages
+To see a list of supported npm commands, run:
+  npm help
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> npm start
+npm error code ENOENT
+npm error syscall open
+npm error path H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\AH\AppData\Local\npm-cache\_logs\2026-01-24T15_26_03_212Z-debug-0.log
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp> cd myreactapp
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\myreactapp> npm start
+
+> myreactapp@0.1.0 start
+> react-scripts start
+
+'ViteFiles\ReactApp\myreactapp\node_modules\.bin\' is not recognized as an internal or external command,
+operable program or batch file.
+node:internal/modules/cjs/loader:1368
+  throw err;
+  ^
+
+Error: Cannot find module 'H:\AllProgramsHere\Reactjs\react-scripts\bin\react-scripts.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.18.0
+PS H:\AllProgramsHere\Reactjs\MyReact&ViteFiles\ReactApp\myreactapp> 
